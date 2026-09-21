@@ -25,3 +25,38 @@ h3 {
 p {
     color: #666;
 }
+.album {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+
+    border-radius: 12px;
+}
+
+.cover {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #222;
+    color: white;
+
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.info p {
+    margin: 8px 0;
+}
