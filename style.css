@@ -41,17 +41,10 @@ p {
     width: 150px;
     height: 150px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
 
-    background: #222;
-    color: white;
-
-    font-size: 28px;
-    font-weight: bold;
+    border-radius: 4px;
 }
-
 .info h3 {
     margin: 0;
     font-size: 28px;
