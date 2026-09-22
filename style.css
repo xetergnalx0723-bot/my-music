@@ -69,3 +69,8 @@ p {
     object-fit: cover;
     border-radius: 8px;
 }
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
