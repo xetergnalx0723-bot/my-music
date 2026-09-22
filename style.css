@@ -35,6 +35,8 @@ p {
     margin-top: 25px;
 
     border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .cover {
@@ -52,4 +54,7 @@ p {
 
 .info p {
     margin: 8px 0;
+}
+.album:hover {
+    transform: translateY(-5px);
 }
