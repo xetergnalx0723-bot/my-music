@@ -63,3 +63,9 @@ p {
     color: inherit;
     display: block;
 }
+.album-page-cover {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
