@@ -58,3 +58,8 @@ p {
 .album:hover {
     transform: translateY(-5px);
 }
+.album-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
